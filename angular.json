@@ -1,0 +1,141 @@
+{
+  "version": 1,
+  "projects": {
+    "reimburser-ui": {
+      "projectType": "application",
+      "schematics": {
+        "@nrwl/angular:component": {
+          "style": "scss"
+        }
+      },
+      "root": "apps/reimburser-ui",
+      "sourceRoot": "apps/reimburser-ui/src",
+      "prefix": "reimburser",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:browser",
+          "options": {
+            "outputPath": "dist/apps/reimburser-ui",
+            "index": "apps/reimburser-ui/src/index.html",
+            "main": "apps/reimburser-ui/src/main.ts",
+            "polyfills": "apps/reimburser-ui/src/polyfills.ts",
+            "tsConfig": "apps/reimburser-ui/tsconfig.app.json",
+            "aot": true,
+            "assets": [
+              "apps/reimburser-ui/src/favicon.ico",
+              "apps/reimburser-ui/src/assets"
+            ],
+            "styles": ["apps/reimburser-ui/src/styles.scss"],
+            "scripts": []
+          },
+          "configurations": {
+            "production": {
+              "fileReplacements": [
+                {
+                  "replace": "apps/reimburser-ui/src/environments/environment.ts",
+                  "with": "apps/reimburser-ui/src/environments/environment.prod.ts"
+                }
+              ],
+              "optimization": true,
+              "outputHashing": "all",
+              "sourceMap": false,
+              "extractCss": true,
+              "namedChunks": false,
+              "extractLicenses": true,
+              "vendorChunk": false,
+              "buildOptimizer": true,
+              "budgets": [
+                {
+                  "type": "initial",
+                  "maximumWarning": "2mb",
+                  "maximumError": "5mb"
+                },
+                {
+                  "type": "anyComponentStyle",
+                  "maximumWarning": "6kb",
+                  "maximumError": "10kb"
+                }
+              ]
+            }
+          }
+        },
+        "serve": {
+          "builder": "@angular-devkit/build-angular:dev-server",
+          "options": {
+            "browserTarget": "reimburser-ui:build"
+          },
+          "configurations": {
+            "production": {
+              "browserTarget": "reimburser-ui:build:production"
+            }
+          }
+        },
+        "extract-i18n": {
+          "builder": "@angular-devkit/build-angular:extract-i18n",
+          "options": {
+            "browserTarget": "reimburser-ui:build"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "apps/reimburser-ui/tsconfig.app.json",
+              "apps/reimburser-ui/tsconfig.spec.json"
+            ],
+            "exclude": ["**/node_modules/**", "!apps/reimburser-ui/**"]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "options": {
+            "jestConfig": "apps/reimburser-ui/jest.config.js",
+            "tsConfig": "apps/reimburser-ui/tsconfig.spec.json",
+            "passWithNoTests": true,
+            "setupFile": "apps/reimburser-ui/src/test-setup.ts"
+          }
+        }
+      }
+    },
+    "reimburser-ui-e2e": {
+      "root": "apps/reimburser-ui-e2e",
+      "sourceRoot": "apps/reimburser-ui-e2e/src",
+      "projectType": "application",
+      "architect": {
+        "e2e": {
+          "builder": "@nrwl/cypress:cypress",
+          "options": {
+            "cypressConfig": "apps/reimburser-ui-e2e/cypress.json",
+            "tsConfig": "apps/reimburser-ui-e2e/tsconfig.e2e.json",
+            "devServerTarget": "reimburser-ui:serve"
+          },
+          "configurations": {
+            "production": {
+              "devServerTarget": "reimburser-ui:serve:production"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": ["apps/reimburser-ui-e2e/tsconfig.e2e.json"],
+            "exclude": ["**/node_modules/**", "!apps/reimburser-ui-e2e/**"]
+          }
+        }
+      }
+    }
+  },
+  "cli": {
+    "defaultCollection": "@nrwl/angular"
+  },
+  "schematics": {
+    "@nrwl/angular:application": {
+      "unitTestRunner": "jest",
+      "e2eTestRunner": "cypress"
+    },
+    "@nrwl/angular:library": {
+      "unitTestRunner": "jest"
+    }
+  },
+  "defaultProject": "reimburser-ui"
+}

@@ -1,0 +1,22 @@
+{
+  "npmScope": "reimburser",
+  "implicitDependencies": {
+    "angular.json": "*",
+    "package.json": {
+      "dependencies": "*",
+      "devDependencies": "*"
+    },
+    "tsconfig.json": "*",
+    "tslint.json": "*",
+    "nx.json": "*"
+  },
+  "projects": {
+    "reimburser-ui": {
+      "tags": []
+    },
+    "reimburser-ui-e2e": {
+      "tags": [],
+      "implicitDependencies": ["reimburser-ui"]
+    }
+  }
+}
