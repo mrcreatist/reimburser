@@ -18,10 +18,10 @@ You can exectue any if the project by running the following command:
   1. Run `npm run start:ui` to execute *remimburser-ui* project
   2. Run `npm run start:service` to execute *remimburser-service* project
 
-  As Kanye West said:
+> What I believe:
+>
+> **We need to save our planet else our homes will not be safe.**
 
-> We're living the future so
-> the present is our past.
 
 ## Generate an application
 
