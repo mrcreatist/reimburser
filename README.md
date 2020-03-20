@@ -2,9 +2,9 @@
 
 This is an Open Source Monorepo created by [Abhishek Verma](https://mrcreatist.github.io)
 
-## Vision :smile:
+## Vision :volcano:
 
-This monorepo aims to contribute in saving the Earth from prinitng paper bills as proof for reimbursements.
+This monorepo aims to contribute in saving the Earth :earth_asia: from prinitng paper bills :page_with_curl: as proof for reimbursements.
 
 ## Running the project
 
