@@ -1,18 +1,22 @@
 # Reimburser
 
-This project was generated using [Nx](https://nx.dev).
+This is an Open Source Monorepo created by [Abhishek Verma](https://mrcreatist.github.io)
 
-<p align="center"><img src="https://raw.githubusercontent.com/nrwl/nx/master/nx-logo.png" width="450"></p>
+## Vision ??
 
-🔎 **Nx is a set of Extensible Dev Tools for Monorepos.**
+This monorepo aims to contribute in saving the Earth?? from prinitng paper bills as proof for reimbursements.
 
-## Quick Start & Documentation
+## Running the project
 
-[Nx Documentation](https://nx.dev/angular)
+This monorepo consists of two projects:
 
-[10-minute video showing all Nx features](https://nx.dev/angular/getting-started/what-is-nx)
+  1. Reimburser-UI (Angular)
+  2. Reimburser-Service (Node.js)
 
-[Interactive Tutorial](https://nx.dev/angular/tutorial/01-create-application)
+You can exectue any if the project by running the following command:
+
+  1. Remimburser-UI: `npm run start:ui`
+  2. Remimburser-Service: `npm run start:service`
 
 ## Adding capabilities to your workspace
 
@@ -82,3 +86,6 @@ Run `nx dep-graph` to see a diagram of the dependencies of your projects.
 ## Further help
 
 Visit the [Nx Documentation](https://nx.dev/angular) to learn more.
+
+
+This project was generated using [Nx](https://nx.dev).
