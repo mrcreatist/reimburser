@@ -1,6 +1,6 @@
 # Reimburser
 
-This is an open source monorepo created by [Abhishek Verma](https://mrcreatist.github.io)
+This is an open source monorepo created by [Abhishek Verma :sunglasses:](https://mrcreatist.github.io)
 
 ## Vision :volcano:
 
