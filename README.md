@@ -4,19 +4,19 @@ This is an open source monorepo created by [Abhishek Verma :sunglasses:](https:/
 
 ## Vision :volcano:
 
-This monorepo aims to contribute in saving the Earth :earth_asia: by prinitng less paper bills :page_with_curl: as a proof for reimbursements.
+This monorepo aims to contribute in saving the Earth :earth_asia: by prinitng less paper bills :page_with_curl: for reimbursements.
 
 ## Running the project :running:
 
 This monorepo consists of two projects:
 
-  1. Reimburser-UI (Angular)
-  2. Reimburser-Service (Node.js)
+  1. *Reimburser-UI* _(Angular)_
+  2. *Reimburser-Service* _(Node.js)_
 
 You can exectue any if the project by running the following command:
 
-  1. Run `npm run start:ui` to execute remimburser-ui project
-  2. Remimburser-Service: `npm run start:service`
+  1. Run `npm run start:ui` to execute *remimburser-ui* project
+  2. Run `npm run start:service` to execute *remimburser-service* project
 
 ## Generate an application
 
