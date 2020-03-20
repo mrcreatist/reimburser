@@ -6,7 +6,7 @@ This is an Open Source Monorepo created by [Abhishek Verma](https://mrcreatist.g
 
 This monorepo aims to contribute in saving the Earth :earth_asia: from prinitng paper bills :page_with_curl: as proof for reimbursements.
 
-## Running the project
+## Running the project :running:
 
 This monorepo consists of two projects:
 
@@ -17,27 +17,6 @@ You can exectue any if the project by running the following command:
 
   1. Remimburser-UI: `npm run start:ui`
   2. Remimburser-Service: `npm run start:service`
-
-## Adding capabilities to your workspace
-
-Nx supports many plugins which add capabilities for developing different types of applications and different tools.
-
-These capabilities include generating applications, libraries, etc as well as the devtools to test, and build projects as well.
-
-Below are some plugins which you can add to your workspace:
-
-- [Angular](https://angular.io)
-  - `ng add @nrwl/angular`
-- [React](https://reactjs.org)
-  - `ng add @nrwl/react`
-- Web (no framework frontends)
-  - `ng add @nrwl/web`
-- [Nest](https://nestjs.com)
-  - `ng add @nrwl/nest`
-- [Express](https://expressjs.com)
-  - `ng add @nrwl/express`
-- [Node](https://nodejs.org)
-  - `ng add @nrwl/node`
 
 ## Generate an application
 
