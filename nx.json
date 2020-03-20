@@ -17,6 +17,9 @@
     "reimburser-ui-e2e": {
       "tags": [],
       "implicitDependencies": ["reimburser-ui"]
+    },
+    "reimburser-service": {
+      "tags": []
     }
   }
 }
