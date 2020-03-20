@@ -1,10 +1,11 @@
 # Reimburser
 
-This is an open source monorepo created by [Abhishek Verma :sunglasses:](https://mrcreatist.github.io)
+This is an **open source monorepo** created by **[Abhishek Verma :sunglasses:](https://mrcreatist.github.io)**
 
 ## Vision :volcano:
 
 This monorepo aims to contribute in saving the Earth :earth_asia: by prinitng less paper bills :page_with_curl: for reimbursements.
+I want more companies and start-ups to use this more that's why the monorepo has been kept open source.
 
 ## Running the project :running:
 
