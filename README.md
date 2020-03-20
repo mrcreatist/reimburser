@@ -1,10 +1,10 @@
 # Reimburser
 
-This is an Open Source Monorepo created by [Abhishek Verma](https://mrcreatist.github.io)
+This is an open source monorepo created by [Abhishek Verma](https://mrcreatist.github.io)
 
 ## Vision :volcano:
 
-This monorepo aims to contribute in saving the Earth :earth_asia: from prinitng paper bills :page_with_curl: as proof for reimbursements.
+This monorepo aims to contribute in saving the Earth :earth_asia: by prinitng less paper bills :page_with_curl: as a proof for reimbursements.
 
 ## Running the project :running:
 
@@ -15,7 +15,7 @@ This monorepo consists of two projects:
 
 You can exectue any if the project by running the following command:
 
-  1. Remimburser-UI: `npm run start:ui`
+  1. Run `npm run start:ui` to execute remimburser-ui project
   2. Remimburser-Service: `npm run start:service`
 
 ## Generate an application
