@@ -10,13 +10,18 @@ This monorepo aims to contribute in saving the Earth :earth_asia: by prinitng le
 
 This monorepo consists of two projects:
 
-  1. *Reimburser-UI* _(Angular)_
-  2. *Reimburser-Service* _(Node.js)_
+  1. **Reimburser-UI** _(Angular)_
+  2. **Reimburser-Service** _(Node.js)_
 
 You can exectue any if the project by running the following command:
 
   1. Run `npm run start:ui` to execute *remimburser-ui* project
   2. Run `npm run start:service` to execute *remimburser-service* project
+
+  As Kanye West said:
+
+> We're living the future so
+> the present is our past.
 
 ## Generate an application
 
