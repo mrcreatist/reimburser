@@ -43,7 +43,7 @@
     "@angular/router": "9.0.0",
     "@nrwl/angular": "9.1.2",
     "core-js": "^2.5.4",
-    "express": "4.17.1",
+    "express": "4.17.3",
     "rxjs": "~6.5.0",
     "zone.js": "^0.10.2"
   },
